@@ -34,3 +34,7 @@ a:hover,
 a:focus {
 	color: rgba(241,90,56,.7);
 }
+
+.entry-content a, .entry-summary a, .page-content a, .comment-content a, .pingback .comment-body > a {
+    border-bottom: 1px solid #f15a38;
+}
