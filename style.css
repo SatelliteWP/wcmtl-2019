@@ -55,6 +55,15 @@ a:focus {
     width: 100%;
 }
 
+.site-footer a:hover {
+    text-decoration: none;
+    color: #eee;
+}
+
+.site-info {
+    position: relative;
+}
+
 .site-info a {
     border-bottom: 0;
     position: relative;
