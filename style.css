@@ -55,12 +55,10 @@ a:focus {
     border: 0;
     color: #fff;
     cursor: pointer;
-    font-family: "Noto Sans", sans-serif;
     font-size: 12px;
     font-size: 1.2rem;
     font-weight: 700;
     padding: 0.7917em 1.5em;
-    text-transform: uppercase;
 }
 
 /* Footer */
