@@ -38,3 +38,49 @@ a:focus {
 .entry-content a, .entry-summary a, .page-content a, .comment-content a, .pingback .comment-body > a {
     border-bottom: 1px solid #f15a38;
 }
+
+/* Footer */
+
+.site-footer {
+    border: 0;
+    box-shadow: none;
+    background-color: #126bad;
+    color: #fff;
+}
+
+.site-footer a {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.site-info a {
+    border-bottom: 0;
+    position: relative;
+    top: -30px;
+}
+
+.site-info a:before {
+    content: "";
+    background-image: url(https://cldup.com/w3gQ97rKP0.svg);
+    background-size: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #444;
+    height: 64px;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 0 auto;
+    padding: 0;
+    width: 64px;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #3e4692;
+    border-radius: 100%;
+    padding: 32px;
+    border: 8px solid #126bad;
+}
