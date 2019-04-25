@@ -43,6 +43,10 @@ a:focus {
     border-bottom: 1px solid #f15a38;
 }
 
+.sticky .entry-footer {
+	display: none;
+}
+
 /* Footer */
 
 .site-info {
