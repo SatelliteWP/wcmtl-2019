@@ -15,6 +15,11 @@ body.custom-background {
 	background-color: #f7e9d2;
 }
 
+h1.site-title,
+.site-description {
+	display:none;
+}
+
 h1,
 h2,
 h2.entry-title,
