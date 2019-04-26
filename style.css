@@ -126,6 +126,10 @@ a:focus {
 	border-bottom: 0;
 }
 
+.organizer {
+	overflow: auto;
+}
+
 /* Media adjustments */
 @media screen and (min-width: 59.6875em) {
 	.site-info {
