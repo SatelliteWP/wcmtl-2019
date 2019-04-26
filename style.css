@@ -16,7 +16,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 .link-button {
     background-color: #126bad;
-    padding: 10px 14px;
+    padding: 14px;
     color: #fff !important;
     border: none;
 }
