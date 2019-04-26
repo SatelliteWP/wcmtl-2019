@@ -2,13 +2,27 @@
 Main Styles
 ----------------------------------------*/
 body,
-/*button,*/
 input,
 select,
 textarea {
 	font-family: 'Rubik', sans-serif;
 	line-height: 1.65;
 	color: #2f2f2f;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color:#126bad;
+}
+
+.link-button {
+    background-color: #126bad;
+    padding: 8px 14px;
+    color: #fff;
+    border: none;
+}
+
+.link-button:hover {
+	background-color: rgba(18,107,173,.7);
 }
 
 body.custom-background {
