@@ -12,6 +12,7 @@ textarea {
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
 	background-color:#126bad;
+	font-family: 'Rubik', sans-serif;
 }
 
 .link-button {
