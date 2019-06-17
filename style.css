@@ -189,6 +189,51 @@ a:focus {
 	content: " / Oui";
 }
 
+.tix-row-privacy .tix-left::after {
+	content: " / Souhaitez-vous être affiché dans la liste des gens présents?";
+}
+
+/* Track titles */
+.entry-content .wcb-track-development::before {
+	content: "Development";
+	background-color: #C6C007;
+}
+
+.entry-content .wcb-track-code::before {
+	content: "Code";
+	background-color: #008CAE;
+}
+
+.entry-content .wcb-track-general::before {
+	content: "General";
+	background-color: #0B0B61;
+}
+
+.entry-content .wcb-track-business::before {
+	content: "Business";
+	background-color: #3c3c3c;
+}
+
+.entry-content .wcb-track-content::before {
+	content: "Content";
+	background-color: #24905f;
+}
+
+.entry-content .wcb-track-woocommerce::before {
+	content: "Woocommerce";
+	background-color: #96588a;
+}
+
+.entry-content .wcb-track-lunchtime::before {
+	content: "Lunchtime";
+	background-color: #e9432e;
+}
+
+.entry-content .wcb-track-lightning::before {
+	content: "3 x 15min Lightning Talks";
+	background-color: #4c459c;
+}
+
 /* Media adjustments */
 @media screen and (min-width: 59.6875em) {
 	.site-info {
