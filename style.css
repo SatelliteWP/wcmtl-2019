@@ -146,6 +146,49 @@ a:focus {
 	margin-bottom:50px
 }
 
+/* Ajout du Français dans l'achat de billets */
+.tix-row-coupon a::after {
+	content: " / Cliquez ici pour appliquer un code rabais";
+}
+
+.tix-row-first-name .tix-left::after {
+	content: "/ Prénom";
+}
+
+.tix-row-last-name .tix-left::after {
+	content: "/ Nom";
+}
+
+.tix-row-email .tix-left::after {
+	content: "/ Adresse courriel";
+}
+
+.tix-row-allergy .tix-left::after {
+	content: "/ Avez-vous des allergies mortelles qui affecteraient votre expérience à WordCamp?";
+}
+
+.tix-row-accommodations .tix-left::after {
+	content: "/ Avez-vous des besoins d’accessibilité tels que l’interpretation en langage des signes ou  l’accès en fauteuil roulant afin de participer à WordCamp?";
+}
+
+.tix-row-coc .tix-left::after {
+	content: "Acceptez-vous de respecter le code de conduite de l’événement?";
+}
+
+.tix-row-allergy .tix-right label:first-child::after,
+.tix-row-accommodations .tix-right label:first-child::after {
+	content: " / Oui (nous vous contacterons)";
+}
+
+.tix-row-allergy .tix-right label:last-child::after,
+.tix-row-accommodations .tix-right label:last-child::after {
+	content: " / Non";
+}
+
+.tix-row-coc .tix-right label::after {
+	content: " / Oui";
+}
+
 /* Media adjustments */
 @media screen and (min-width: 59.6875em) {
 	.site-info {
