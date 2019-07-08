@@ -194,7 +194,7 @@ a:focus {
 }
 
 /* Track titles */
-.entry-content .wcb-track-development::before {
+.entry-content .wcb-track-developpement::before {
 	content: "Development";
 	background-color: #C6C007;
 }
@@ -265,15 +265,6 @@ td.wcpt-session-type-session {
 	vertical-align: top;
 }
 
-/* hide border for lightning sessions */
-.wcpt-schedule td.wcpt-session-empty, .wcpt-schedule td.wcb-session-cinq-facons-dutiliser-la-video-dans-sa-strategie-marketing, .wcpt-schedule td.wcb-session-redaction-seo-redaction-tout-court, .wcpt-schedule td.wcb-session-plugins-and-you-finding-that-perfect-plugin {
-	border-bottom: none;
-	border-top: none;
-}
-
-.wcpt-schedule td.wcb-session-beautiful-web-type, .wcpt-time-1130am, .wcpt-schedule td.wcb-session-exploring-the-case-for-serverless-wordpress {
-	border-bottom: none;
-}
 
 /* Track titles */
 .entry-content .wcb-track-design::before {
