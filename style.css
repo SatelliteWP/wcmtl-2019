@@ -234,6 +234,92 @@ a:focus {
 	background-color: #4c459c;
 }
 
+/* Show and colour code session tracks */
+.entry-content .wcpt-session-type-session::before {
+	color: #fff;
+	display: block;
+	padding: 3px 10px;
+	text-transform: uppercase;
+}
+
+.wcpt-schedule a {
+	text-decoration: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #ce462e;
+}
+
+.wcpt-schedule th, .wcpt-schedule td {
+	border: 1px solid #ccc;
+}
+
+.wcpt-schedule th {
+	text-align: center;
+}
+
+td.wcpt-time {
+	padding: 0 5px;
+}
+
+td.wcpt-session-type-session {
+	vertical-align: top;
+}
+
+/* hide border for lightning sessions */
+.wcpt-schedule td.wcpt-session-empty, .wcpt-schedule td.wcb-session-cinq-facons-dutiliser-la-video-dans-sa-strategie-marketing, .wcpt-schedule td.wcb-session-redaction-seo-redaction-tout-court, .wcpt-schedule td.wcb-session-plugins-and-you-finding-that-perfect-plugin {
+	border-bottom: none;
+	border-top: none;
+}
+
+.wcpt-schedule td.wcb-session-beautiful-web-type, .wcpt-time-1130am, .wcpt-schedule td.wcb-session-exploring-the-case-for-serverless-wordpress {
+	border-bottom: none;
+}
+
+/* Track titles */
+.entry-content .wcb-track-design::before {
+	content: "Design";
+	background-color: #C6C007;
+}
+
+.entry-content .wcb-track-code::before {
+	content: "Code";
+	background-color: #008CAE;
+}
+
+.entry-content .wcb-track-generale::before {
+	content: "Générale";
+	background-color: #204B98;
+}
+
+.entry-content .wcb-track-marketing::before {
+	content: "Marketing";
+	background-color: #767676;
+}
+
+.entry-content .wcb-track-entreprise::before {
+	content: "Entreprise";
+	background-color: #ce462e;
+}
+
+/* Style session speaker in schedule */
+.wcpt-schedule .wcpt-session-speakers {
+	display: block;
+	font-size: 90%;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+.workshops {
+	margin-top: 60px;
+}
+
+.workshops a {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	color: #ce462e;
+}
+
+
 /* Media adjustments */
 @media screen and (min-width: 59.6875em) {
 	.site-info {
