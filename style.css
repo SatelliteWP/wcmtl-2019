@@ -194,7 +194,7 @@ a:focus {
 }
 
 /* Track titles */
-.entry-content .wcb-track-developpement::before {
+.entry-content .wcb-track-developpement::before, .entry-content .wcb-track-development::before {
 	content: "Dev";
 	background-color: #C6C007;
 }
